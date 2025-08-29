@@ -1,0 +1,81 @@
+2025-05-29 11:05:58,499 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:05:58,565 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:05:58,736 [ERROR] Invalid training input shape: got (2348, 256, 256), expected (None, 256, 256, 3)
+2025-05-29 11:05:58,737 [ERROR] Failed to load or preprocess data: Invalid training input shape
+2025-05-29 11:05:58,737 [ERROR] Training failed: Invalid training input shape
+2025-05-29 11:06:35,901 [ERROR] No such comm target registered: jupyter.widget.control
+2025-05-29 11:06:35,902 [WARNING] No such comm: 8b5d9b4c-0438-4f16-8b73-432196dc0ec3
+2025-05-29 11:06:40,134 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:06:40,135 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:06:40,311 [INFO] Added channel dimension to train_data_x
+2025-05-29 11:06:40,311 [INFO] Added channel dimension to val_data_x
+2025-05-29 11:06:41,771 [INFO] Datasets loaded and preprocessed successfully.
+2025-05-29 11:06:42,426 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47.h5
+2025-05-29 11:06:42,437 [INFO] Model compiled successfully.
+2025-05-29 11:06:42,438 [INFO] Starting model training...
+2025-05-29 11:18:49,866 [INFO] Training completed successfully.
+2025-05-29 11:26:17,407 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:26:17,486 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:26:17,654 [INFO] Added channel dimension to train_data_x
+2025-05-29 11:26:17,655 [INFO] Added channel dimension to val_data_x
+2025-05-29 11:26:19,128 [INFO] Datasets loaded and preprocessed successfully.
+2025-05-29 11:26:19,779 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47.h5
+2025-05-29 11:26:19,788 [INFO] Model compiled successfully.
+2025-05-29 11:26:19,788 [INFO] Starting model training...
+2025-05-29 11:28:23,152 [INFO] Training completed successfully.
+2025-05-29 11:30:03,243 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:30:03,243 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:30:03,271 [INFO] Added channel dimension to test_data_x
+2025-05-29 11:30:03,471 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-29 11:30:04,033 [INFO] Loaded weights from training_checkpoints/checkpoint_epoch_10_20250529_112619.h5
+2025-05-29 11:30:04,037 [INFO] Model compiled successfully.
+2025-05-29 11:30:04,038 [INFO] Evaluating model on test data...
+2025-05-29 11:30:04,973 [INFO] Test results: {'loss': nan, 'dice_coefficient': nan}
+2025-05-29 11:31:09,884 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:31:09,885 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:31:09,912 [INFO] Added channel dimension to test_data_x
+2025-05-29 11:31:10,119 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-29 11:31:10,472 [ERROR] Weights file training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47 not found
+2025-05-29 11:31:10,472 [ERROR] Failed to set up model: Weights file training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47 not found
+2025-05-29 11:31:10,473 [ERROR] Failed to evaluate test data: Weights file training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47 not found
+2025-05-29 11:31:30,827 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:31:30,828 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:31:30,856 [INFO] Added channel dimension to test_data_x
+2025-05-29 11:31:31,058 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-29 11:31:31,661 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47.h5
+2025-05-29 11:31:31,667 [INFO] Model compiled successfully.
+2025-05-29 11:31:31,668 [INFO] Evaluating model on test data...
+2025-05-29 11:31:32,533 [INFO] Test results: {'loss': 1.2086809873580933, 'dice_coefficient': 0.034875962883234024}
+2025-05-29 11:35:56,109 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:35:56,110 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:35:56,136 [INFO] Added channel dimension to test_data_x
+2025-05-29 11:35:56,316 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-29 11:35:56,909 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_checkpoint_epoch_60.h5
+2025-05-29 11:35:56,914 [INFO] Model compiled successfully.
+2025-05-29 11:35:56,914 [INFO] Evaluating model on test data...
+2025-05-29 11:35:57,781 [INFO] Test results: {'loss': 0.5328483581542969, 'dice_coefficient': -0.5443116426467896}
+2025-05-29 11:36:18,340 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:36:18,410 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:36:18,578 [INFO] Added channel dimension to train_data_x
+2025-05-29 11:36:18,579 [INFO] Added channel dimension to val_data_x
+2025-05-29 11:36:20,066 [INFO] Datasets loaded and preprocessed successfully.
+2025-05-29 11:36:20,713 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_checkpoint_epoch_60.h5
+2025-05-29 11:36:20,721 [INFO] Model compiled successfully.
+2025-05-29 11:36:20,722 [INFO] Starting model training...
+2025-05-29 11:38:39,406 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:38:39,407 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:38:39,577 [INFO] Added channel dimension to train_data_x
+2025-05-29 11:38:39,578 [INFO] Added channel dimension to val_data_x
+2025-05-29 11:38:40,752 [INFO] Datasets loaded and preprocessed successfully.
+2025-05-29 11:38:41,328 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_checkpoint_epoch_60.h5
+2025-05-29 11:38:41,334 [INFO] Model compiled successfully.
+2025-05-29 11:38:41,334 [INFO] Starting model training...
+2025-05-29 11:48:45,126 [INFO] Training completed successfully.
+2025-05-29 11:49:49,878 [INFO] Loaded configuration from config.yaml
+2025-05-29 11:49:49,878 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-29 11:49:49,904 [INFO] Added channel dimension to test_data_x
+2025-05-29 11:49:50,097 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-29 11:49:50,647 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_checkpoint_epoch_60.h5
+2025-05-29 11:49:50,651 [INFO] Model compiled successfully.
+2025-05-29 11:49:50,652 [INFO] Evaluating model on test data...
+2025-05-29 11:49:51,586 [INFO] Test results: {'loss': 0.5328476428985596, 'dice_coefficient': -0.5443114638328552}

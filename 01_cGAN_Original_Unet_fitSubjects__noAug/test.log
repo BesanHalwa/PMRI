@@ -1,0 +1,3 @@
+2025-05-27 11:59:34,320 - WARNING - No training configuration found in the save file, so the model was *not* compiled. Compile it manually.
+2025-05-27 11:59:34,321 - INFO - Loaded generator model from generator_final.h5
+2025-05-27 11:59:37,946 - INFO - Saved test results visualization to test_results.png

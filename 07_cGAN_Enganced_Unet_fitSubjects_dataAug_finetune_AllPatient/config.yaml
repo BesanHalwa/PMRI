@@ -1,0 +1,17 @@
+data:
+  path: /home/besanhalwa/Eshan/project1_PMRI/Data/npy_tech_pmri_pad_no_aug_leftRight_split
+  buffer_size: 548000
+  batch_size: 64
+model:
+  img_width: 256
+  img_height: 256
+  input_channels: 1
+  output_channels: 6
+training:
+  epochs: 500
+  batch_size: 256
+  weights_path: ./training_checkpoints/enhanced_unet_Generator_model_checkpoint_epoch_60.h5
+  checkpoint_dir: ./training_checkpoints
+  alpha: 0.5
+  learning_rate: 0.001
+  early_stopping_patience: 10

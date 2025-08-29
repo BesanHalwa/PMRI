@@ -1,0 +1,55 @@
+2025-05-27 11:36:04,812 - ERROR - Failed to load datasets: [Errno 2] No such file or directory: 'train_images.npy'
+2025-05-27 11:36:04,813 - ERROR - Training failed: [Errno 2] No such file or directory: 'train_images.npy'
+2025-05-27 11:37:13,540 - INFO - Starting epoch 1/100
+2025-05-27 11:37:13,540 - ERROR - Training failed: name 'time' is not defined
+2025-05-27 11:37:36,922 - INFO - Starting epoch 1/100
+2025-05-27 11:37:50,687 - WARNING - 5 out of the last 5 calls to <function train_step at 0x7e480c9c7490> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-05-27 11:37:51,740 - WARNING - 6 out of the last 6 calls to <function train_step at 0x7e480c9c7490> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-05-27 11:39:23,360 - INFO - Step 100/147: Gen Loss = 8.1677, Disc Loss = 0.0408
+2025-05-27 11:40:14,537 - INFO - Epoch 1: Val Gen Loss = 5.7576, Time = 157.62 sec
+2025-05-27 11:40:15,551 - INFO - Saved best checkpoint for epoch 1
+2025-05-27 11:40:15,551 - INFO - Starting epoch 2/100
+2025-05-27 11:40:20,425 - INFO - Step 100/147: Gen Loss = 8.3966, Disc Loss = 0.0091
+2025-05-27 11:40:23,367 - INFO - Epoch 2: Val Gen Loss = 3.1320, Time = 7.82 sec
+2025-05-27 11:40:24,132 - INFO - Saved best checkpoint for epoch 2
+2025-05-27 11:40:24,133 - INFO - Starting epoch 3/100
+2025-05-27 11:40:28,408 - INFO - Step 100/147: Gen Loss = 6.2327, Disc Loss = 0.0441
+2025-05-27 11:40:31,120 - INFO - Epoch 3: Val Gen Loss = 10.1519, Time = 6.99 sec
+2025-05-27 11:40:31,122 - INFO - Starting epoch 4/100
+2025-05-27 11:40:35,389 - INFO - Step 100/147: Gen Loss = 8.6721, Disc Loss = 0.0044
+2025-05-27 11:40:38,142 - INFO - Epoch 4: Val Gen Loss = 2.5650, Time = 7.02 sec
+2025-05-27 11:40:38,898 - INFO - Saved best checkpoint for epoch 4
+2025-05-27 11:40:38,898 - INFO - Starting epoch 5/100
+2025-05-27 11:40:43,166 - INFO - Step 100/147: Gen Loss = 7.9968, Disc Loss = 0.0114
+2025-05-27 11:40:45,898 - INFO - Epoch 5: Val Gen Loss = 4.2244, Time = 7.00 sec
+2025-05-27 11:40:46,659 - INFO - Saved periodic checkpoint for epoch 5
+2025-05-27 11:40:46,659 - INFO - Starting epoch 6/100
+2025-05-27 11:40:50,923 - INFO - Step 100/147: Gen Loss = 1.6628, Disc Loss = 1.3799
+2025-05-27 11:40:53,646 - INFO - Epoch 6: Val Gen Loss = 3.3347, Time = 6.99 sec
+2025-05-27 11:40:53,647 - INFO - Starting epoch 7/100
+2025-05-27 11:40:57,921 - INFO - Step 100/147: Gen Loss = 1.4489, Disc Loss = 1.2277
+2025-05-27 11:41:00,671 - INFO - Epoch 7: Val Gen Loss = 2.5790, Time = 7.02 sec
+2025-05-27 11:41:00,673 - INFO - Starting epoch 8/100
+2025-05-27 11:41:04,942 - INFO - Step 100/147: Gen Loss = 1.3499, Disc Loss = 1.3638
+2025-05-27 11:41:07,857 - INFO - Epoch 8: Val Gen Loss = 2.0801, Time = 7.18 sec
+2025-05-27 11:41:08,593 - INFO - Saved best checkpoint for epoch 8
+2025-05-27 11:41:08,593 - INFO - Starting epoch 9/100
+2025-05-27 11:41:12,865 - INFO - Step 100/147: Gen Loss = 1.6856, Disc Loss = 1.0293
+2025-05-27 11:41:15,594 - INFO - Epoch 9: Val Gen Loss = 2.1294, Time = 7.00 sec
+2025-05-27 11:41:15,596 - INFO - Starting epoch 10/100
+2025-05-27 11:41:19,862 - INFO - Step 100/147: Gen Loss = 2.4391, Disc Loss = 1.0970
+2025-05-27 11:41:22,596 - INFO - Epoch 10: Val Gen Loss = 2.7668, Time = 7.00 sec
+2025-05-27 11:41:23,325 - INFO - Saved periodic checkpoint for epoch 10
+2025-05-27 11:41:23,325 - INFO - Starting epoch 11/100
+2025-05-27 11:41:27,594 - INFO - Step 100/147: Gen Loss = 1.7639, Disc Loss = 0.9550
+2025-05-27 11:41:30,333 - INFO - Epoch 11: Val Gen Loss = 2.2811, Time = 7.01 sec
+2025-05-27 11:41:30,335 - INFO - Starting epoch 12/100
+2025-05-27 11:41:34,605 - INFO - Step 100/147: Gen Loss = 1.6101, Disc Loss = 1.1841
+2025-05-27 11:41:37,342 - INFO - Epoch 12: Val Gen Loss = 2.2497, Time = 7.01 sec
+2025-05-27 11:41:37,344 - INFO - Starting epoch 13/100
+2025-05-27 11:41:41,626 - INFO - Step 100/147: Gen Loss = 1.7960, Disc Loss = 1.1754
+2025-05-27 11:41:44,343 - INFO - Epoch 13: Val Gen Loss = 3.2111, Time = 7.00 sec
+2025-05-27 11:41:44,345 - INFO - Early stopping triggered after 5 epochs without improvement
+2025-05-27 11:41:44,345 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-27 11:41:44,591 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-27 11:41:44,610 - INFO - Training completed and models saved

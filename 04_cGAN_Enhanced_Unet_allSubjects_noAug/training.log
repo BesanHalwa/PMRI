@@ -1,0 +1,120 @@
+2025-05-27 13:47:45,754 - INFO - Starting epoch 1/100
+2025-05-27 13:47:57,883 - WARNING - 5 out of the last 5 calls to <function train_step at 0x77f72fbc72e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-05-27 13:47:58,667 - WARNING - 6 out of the last 6 calls to <function train_step at 0x77f72fbc72e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-05-27 13:49:14,338 - INFO - Step 100/147: Gen Loss = 7.8305, Disc Loss = 0.6542
+2025-05-27 13:49:56,745 - INFO - Epoch 1: Val Gen Loss = 6.5229, Time = 130.99 sec
+2025-05-27 13:49:57,661 - INFO - Saved best checkpoint for epoch 1
+2025-05-27 13:49:57,661 - INFO - Starting epoch 2/100
+2025-05-27 13:50:01,749 - INFO - Step 100/147: Gen Loss = 7.2955, Disc Loss = 0.8659
+2025-05-27 13:50:04,313 - INFO - Epoch 2: Val Gen Loss = 8.4871, Time = 6.65 sec
+2025-05-27 13:50:04,314 - INFO - Starting epoch 3/100
+2025-05-27 13:50:08,355 - INFO - Step 100/147: Gen Loss = 5.3286, Disc Loss = 1.9795
+2025-05-27 13:50:10,905 - INFO - Epoch 3: Val Gen Loss = 9.9514, Time = 6.59 sec
+2025-05-27 13:50:10,906 - INFO - Starting epoch 4/100
+2025-05-27 13:50:14,947 - INFO - Step 100/147: Gen Loss = 6.3985, Disc Loss = 0.9335
+2025-05-27 13:50:17,515 - INFO - Epoch 4: Val Gen Loss = 6.4626, Time = 6.61 sec
+2025-05-27 13:50:18,206 - INFO - Saved best checkpoint for epoch 4
+2025-05-27 13:50:18,206 - INFO - Starting epoch 5/100
+2025-05-27 13:50:22,242 - INFO - Step 100/147: Gen Loss = 4.2725, Disc Loss = 0.7809
+2025-05-27 13:50:24,783 - INFO - Epoch 5: Val Gen Loss = 5.8299, Time = 6.58 sec
+2025-05-27 13:50:25,472 - INFO - Saved best checkpoint for epoch 5
+2025-05-27 13:50:26,157 - INFO - Saved periodic checkpoint for epoch 5
+2025-05-27 13:50:26,157 - INFO - Starting epoch 6/100
+2025-05-27 13:50:30,189 - INFO - Step 100/147: Gen Loss = 4.1470, Disc Loss = 0.5831
+2025-05-27 13:50:32,872 - INFO - Epoch 6: Val Gen Loss = 5.0186, Time = 6.72 sec
+2025-05-27 13:50:33,571 - INFO - Saved best checkpoint for epoch 6
+2025-05-27 13:50:33,571 - INFO - Starting epoch 7/100
+2025-05-27 13:50:37,608 - INFO - Step 100/147: Gen Loss = 4.1335, Disc Loss = 0.9892
+2025-05-27 13:50:40,177 - INFO - Epoch 7: Val Gen Loss = 7.8580, Time = 6.61 sec
+2025-05-27 13:50:40,178 - INFO - Starting epoch 8/100
+2025-05-27 13:50:44,218 - INFO - Step 100/147: Gen Loss = 3.8839, Disc Loss = 1.0528
+2025-05-27 13:50:46,806 - INFO - Epoch 8: Val Gen Loss = 4.5018, Time = 6.63 sec
+2025-05-27 13:50:47,503 - INFO - Saved best checkpoint for epoch 8
+2025-05-27 13:50:47,503 - INFO - Starting epoch 9/100
+2025-05-27 13:50:51,542 - INFO - Step 100/147: Gen Loss = 4.6012, Disc Loss = 1.3323
+2025-05-27 13:50:54,093 - INFO - Epoch 9: Val Gen Loss = 2.7431, Time = 6.59 sec
+2025-05-27 13:50:54,792 - INFO - Saved best checkpoint for epoch 9
+2025-05-27 13:50:54,792 - INFO - Starting epoch 10/100
+2025-05-27 13:50:58,832 - INFO - Step 100/147: Gen Loss = 2.5961, Disc Loss = 1.0001
+2025-05-27 13:51:01,388 - INFO - Epoch 10: Val Gen Loss = 3.6063, Time = 6.60 sec
+2025-05-27 13:51:02,081 - INFO - Saved periodic checkpoint for epoch 10
+2025-05-27 13:51:02,081 - INFO - Starting epoch 11/100
+2025-05-27 13:51:06,130 - INFO - Step 100/147: Gen Loss = 5.0790, Disc Loss = 0.3730
+2025-05-27 13:51:08,711 - INFO - Epoch 11: Val Gen Loss = 5.9003, Time = 6.63 sec
+2025-05-27 13:51:08,713 - INFO - Starting epoch 12/100
+2025-05-27 13:51:12,750 - INFO - Step 100/147: Gen Loss = 2.8511, Disc Loss = 1.2121
+2025-05-27 13:51:15,342 - INFO - Epoch 12: Val Gen Loss = 4.0266, Time = 6.63 sec
+2025-05-27 13:51:15,344 - INFO - Starting epoch 13/100
+2025-05-27 13:51:19,386 - INFO - Step 100/147: Gen Loss = 2.9334, Disc Loss = 1.0180
+2025-05-27 13:51:21,949 - INFO - Epoch 13: Val Gen Loss = 3.6009, Time = 6.60 sec
+2025-05-27 13:51:21,950 - INFO - Starting epoch 14/100
+2025-05-27 13:51:25,996 - INFO - Step 100/147: Gen Loss = 2.8661, Disc Loss = 0.9124
+2025-05-27 13:51:28,551 - INFO - Epoch 14: Val Gen Loss = 3.2737, Time = 6.60 sec
+2025-05-27 13:51:28,552 - INFO - Starting epoch 15/100
+2025-05-27 13:51:32,601 - INFO - Step 100/147: Gen Loss = 4.4134, Disc Loss = 0.1889
+2025-05-27 13:51:35,180 - INFO - Epoch 15: Val Gen Loss = 3.1564, Time = 6.63 sec
+2025-05-27 13:51:35,857 - INFO - Saved periodic checkpoint for epoch 15
+2025-05-27 13:51:35,857 - INFO - Starting epoch 16/100
+2025-05-27 13:51:39,898 - INFO - Step 100/147: Gen Loss = 4.0654, Disc Loss = 1.8058
+2025-05-27 13:51:42,461 - INFO - Epoch 16: Val Gen Loss = 3.3479, Time = 6.60 sec
+2025-05-27 13:51:42,463 - INFO - Starting epoch 17/100
+2025-05-27 13:51:46,510 - INFO - Step 100/147: Gen Loss = 3.4489, Disc Loss = 0.6318
+2025-05-27 13:51:49,073 - INFO - Epoch 17: Val Gen Loss = 3.7614, Time = 6.61 sec
+2025-05-27 13:51:49,075 - INFO - Starting epoch 18/100
+2025-05-27 13:51:53,120 - INFO - Step 100/147: Gen Loss = 5.9588, Disc Loss = 0.1818
+2025-05-27 13:51:55,672 - INFO - Epoch 18: Val Gen Loss = 5.6389, Time = 6.60 sec
+2025-05-27 13:51:55,674 - INFO - Starting epoch 19/100
+2025-05-27 13:51:59,721 - INFO - Step 100/147: Gen Loss = 3.8324, Disc Loss = 0.4343
+2025-05-27 13:52:02,257 - INFO - Epoch 19: Val Gen Loss = 8.9449, Time = 6.58 sec
+2025-05-27 13:52:02,259 - INFO - Starting epoch 20/100
+2025-05-27 13:52:06,305 - INFO - Step 100/147: Gen Loss = 4.8968, Disc Loss = 0.0801
+2025-05-27 13:52:08,875 - INFO - Epoch 20: Val Gen Loss = 5.2208, Time = 6.62 sec
+2025-05-27 13:52:09,568 - INFO - Saved periodic checkpoint for epoch 20
+2025-05-27 13:52:09,568 - INFO - Starting epoch 21/100
+2025-05-27 13:52:13,614 - INFO - Step 100/147: Gen Loss = 4.7800, Disc Loss = 0.9392
+2025-05-27 13:52:16,152 - INFO - Epoch 21: Val Gen Loss = 5.8517, Time = 6.58 sec
+2025-05-27 13:52:16,154 - INFO - Starting epoch 22/100
+2025-05-27 13:52:20,206 - INFO - Step 100/147: Gen Loss = 3.7724, Disc Loss = 0.5152
+2025-05-27 13:52:22,801 - INFO - Epoch 22: Val Gen Loss = 3.2490, Time = 6.65 sec
+2025-05-27 13:52:22,802 - INFO - Starting epoch 23/100
+2025-05-27 13:52:26,848 - INFO - Step 100/147: Gen Loss = 2.6556, Disc Loss = 0.6634
+2025-05-27 13:52:29,396 - INFO - Epoch 23: Val Gen Loss = 3.9807, Time = 6.59 sec
+2025-05-27 13:52:29,397 - INFO - Starting epoch 24/100
+2025-05-27 13:52:33,440 - INFO - Step 100/147: Gen Loss = 2.7981, Disc Loss = 0.6978
+2025-05-27 13:52:35,991 - INFO - Epoch 24: Val Gen Loss = 5.1668, Time = 6.59 sec
+2025-05-27 13:52:35,993 - INFO - Starting epoch 25/100
+2025-05-27 13:52:40,038 - INFO - Step 100/147: Gen Loss = 3.3840, Disc Loss = 0.9181
+2025-05-27 13:52:42,616 - INFO - Epoch 25: Val Gen Loss = 4.4301, Time = 6.62 sec
+2025-05-27 13:52:43,294 - INFO - Saved periodic checkpoint for epoch 25
+2025-05-27 13:52:43,294 - INFO - Starting epoch 26/100
+2025-05-27 13:52:47,336 - INFO - Step 100/147: Gen Loss = 5.4591, Disc Loss = 0.0749
+2025-05-27 13:52:49,856 - INFO - Epoch 26: Val Gen Loss = 3.3759, Time = 6.56 sec
+2025-05-27 13:52:49,858 - INFO - Starting epoch 27/100
+2025-05-27 13:52:53,909 - INFO - Step 100/147: Gen Loss = 5.0683, Disc Loss = 0.0968
+2025-05-27 13:52:56,490 - INFO - Epoch 27: Val Gen Loss = 3.7689, Time = 6.63 sec
+2025-05-27 13:52:56,492 - INFO - Starting epoch 28/100
+2025-05-27 13:53:00,545 - INFO - Step 100/147: Gen Loss = 4.6357, Disc Loss = 0.3203
+2025-05-27 13:53:03,371 - INFO - Epoch 28: Val Gen Loss = 3.9019, Time = 6.88 sec
+2025-05-27 13:53:03,372 - INFO - Starting epoch 29/100
+2025-05-27 13:53:07,417 - INFO - Step 100/147: Gen Loss = 4.1773, Disc Loss = 0.5458
+2025-05-27 13:53:09,982 - INFO - Epoch 29: Val Gen Loss = 4.0611, Time = 6.61 sec
+2025-05-27 13:53:09,983 - INFO - Starting epoch 30/100
+2025-05-27 13:53:14,030 - INFO - Step 100/147: Gen Loss = 9.4733, Disc Loss = 0.0710
+2025-05-27 13:53:16,578 - INFO - Epoch 30: Val Gen Loss = 3.9647, Time = 6.59 sec
+2025-05-27 13:53:17,278 - INFO - Saved periodic checkpoint for epoch 30
+2025-05-27 13:53:17,278 - INFO - Starting epoch 31/100
+2025-05-27 13:53:21,327 - INFO - Step 100/147: Gen Loss = 5.8084, Disc Loss = 0.0533
+2025-05-27 13:53:23,881 - INFO - Epoch 31: Val Gen Loss = 3.1979, Time = 6.60 sec
+2025-05-27 13:53:23,882 - INFO - Starting epoch 32/100
+2025-05-27 13:53:27,932 - INFO - Step 100/147: Gen Loss = 4.7762, Disc Loss = 0.0881
+2025-05-27 13:53:30,524 - INFO - Epoch 32: Val Gen Loss = 5.0255, Time = 6.64 sec
+2025-05-27 13:53:30,526 - INFO - Starting epoch 33/100
+2025-05-27 13:53:34,571 - INFO - Step 100/147: Gen Loss = 4.4609, Disc Loss = 0.1114
+2025-05-27 13:53:37,111 - INFO - Epoch 33: Val Gen Loss = 4.3486, Time = 6.59 sec
+2025-05-27 13:53:37,113 - INFO - Starting epoch 34/100
+2025-05-27 13:53:41,169 - INFO - Step 100/147: Gen Loss = 6.5788, Disc Loss = 0.0500
+2025-05-27 13:53:43,708 - INFO - Epoch 34: Val Gen Loss = 3.7505, Time = 6.59 sec
+2025-05-27 13:53:43,709 - INFO - Early stopping triggered after 25 epochs without improvement
+2025-05-27 13:53:43,710 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-27 13:53:43,937 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-05-27 13:53:43,957 - INFO - Training completed and models saved

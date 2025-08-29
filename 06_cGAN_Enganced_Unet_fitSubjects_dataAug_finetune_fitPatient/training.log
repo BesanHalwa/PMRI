@@ -1,0 +1,72 @@
+2025-05-28 16:34:43,061 [ERROR] Failed to load config file config.yaml: [Errno 2] No such file or directory: 'config.yaml'
+2025-05-28 16:35:46,606 [INFO] Loaded configuration from config.yaml
+2025-05-28 16:35:46,652 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-28 16:35:46,795 [ERROR] Invalid training input shape: got (2088, 256, 256), expected (None, 256, 256, 3)
+2025-05-28 16:35:46,796 [ERROR] Failed to load or preprocess data: Invalid training input shape
+2025-05-28 16:35:46,797 [ERROR] Training failed: Invalid training input shape
+2025-05-28 16:38:22,387 [INFO] Loaded configuration from config.yaml
+2025-05-28 16:38:22,388 [ERROR] Missing or invalid configuration key: model.input_channels
+2025-05-28 16:39:10,510 [INFO] Loaded configuration from config.yaml
+2025-05-28 16:39:10,511 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-28 16:39:10,656 [ERROR] Invalid training input shape: got (2088, 256, 256), expected (None, 256, 256, 1)
+2025-05-28 16:39:10,657 [ERROR] Failed to load or preprocess data: Invalid training input shape
+2025-05-28 16:39:10,657 [ERROR] Training failed: Invalid training input shape
+2025-05-28 16:40:59,716 [INFO] Loaded configuration from config.yaml
+2025-05-28 16:40:59,717 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-28 16:40:59,864 [INFO] Added channel dimension to train_data_x
+2025-05-28 16:40:59,865 [INFO] Added channel dimension to val_data_x
+2025-05-28 16:41:01,093 [INFO] Datasets loaded and preprocessed successfully.
+2025-05-28 16:41:01,816 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47.h5
+2025-05-28 16:41:01,825 [INFO] Model compiled successfully.
+2025-05-28 16:41:01,826 [INFO] Starting model training...
+2025-05-28 16:43:12,369 [INFO] Training completed successfully.
+2025-05-28 16:46:58,797 [INFO] Loaded configuration from config.yaml
+2025-05-28 16:46:58,797 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-28 16:46:58,818 [INFO] Added channel dimension to test_data_x
+2025-05-28 16:46:58,957 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-28 16:46:59,764 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47.h5
+2025-05-28 16:46:59,768 [INFO] Model compiled successfully.
+2025-05-28 16:46:59,769 [INFO] Evaluating model on test data...
+2025-05-28 16:47:00,592 [INFO] Test results: {'loss': 1.1326364278793335, 'dice_coefficient': 0.11162953078746796}
+2025-05-28 16:52:28,678 [INFO] Loaded configuration from config.yaml
+2025-05-28 16:52:28,679 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-28 16:52:28,700 [INFO] Added channel dimension to test_data_x
+2025-05-28 16:52:28,830 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-28 16:52:29,424 [INFO] Loaded weights from training_checkpoints/checkpoint_epoch_09_20250528_164101.h5
+2025-05-28 16:52:29,429 [INFO] Model compiled successfully.
+2025-05-28 16:52:29,430 [INFO] Evaluating model on test data...
+2025-05-28 16:52:30,175 [INFO] Test results: {'loss': 0.707112729549408, 'dice_coefficient': 2.3092777729034424}
+2025-05-28 16:53:49,505 [INFO] Loaded configuration from config.yaml
+2025-05-28 16:53:49,506 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-28 16:53:49,529 [INFO] Added channel dimension to test_data_x
+2025-05-28 16:53:49,685 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-28 16:53:50,267 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47.h5
+2025-05-28 16:53:50,272 [INFO] Model compiled successfully.
+2025-05-28 16:53:50,272 [INFO] Evaluating model on test data...
+2025-05-28 16:53:51,327 [INFO] Test results: {'loss': 1.185703992843628, 'dice_coefficient': 0.03836365044116974}
+2025-05-28 16:55:32,582 [INFO] Loaded configuration from config.yaml
+2025-05-28 16:55:32,582 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-28 16:55:32,605 [INFO] Added channel dimension to test_data_x
+2025-05-28 16:55:32,733 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-28 16:55:33,313 [INFO] Loaded weights from training_checkpoints/checkpoint_epoch_60.h5
+2025-05-28 16:55:33,318 [INFO] Model compiled successfully.
+2025-05-28 16:55:33,318 [INFO] Evaluating model on test data...
+2025-05-28 16:55:34,048 [INFO] Test results: {'loss': 0.5359326601028442, 'dice_coefficient': -0.5420071482658386}
+2025-05-28 17:02:47,947 [INFO] Loaded configuration from config.yaml
+2025-05-28 17:02:47,948 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-28 17:02:47,971 [INFO] Added channel dimension to test_data_x
+2025-05-28 17:02:48,098 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-28 17:02:48,644 [INFO] Loaded weights from training_checkpoints/enhanced_unet_Generator_model_weights_ckpt47.h5
+2025-05-28 17:02:48,648 [INFO] Model compiled successfully.
+2025-05-28 17:02:48,649 [INFO] Evaluating model on test data...
+2025-05-28 17:02:49,385 [INFO] Test results: {'loss': 1.471273422241211, 'dice_coefficient': -0.07388868927955627}
+2025-05-28 17:02:49,652 [WARNING] 5 out of the last 9 calls to <function Model.make_predict_function.<locals>.predict_function at 0x72b249de9b40> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-05-28 17:17:29,655 [INFO] Loaded configuration from config.yaml
+2025-05-28 17:17:29,655 [INFO] Using GPU: [PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU'), PhysicalDevice(name='/physical_device:GPU:1', device_type='GPU')]
+2025-05-28 17:17:29,679 [INFO] Added channel dimension to test_data_x
+2025-05-28 17:17:29,795 [INFO] Test dataset loaded and preprocessed successfully.
+2025-05-28 17:17:30,351 [INFO] Loaded weights from training_checkpoints/checkpoint_epoch_59.h5
+2025-05-28 17:17:30,356 [INFO] Model compiled successfully.
+2025-05-28 17:17:30,356 [INFO] Evaluating model on test data...
+2025-05-28 17:17:31,182 [INFO] Test results: {'loss': 0.5365535616874695, 'dice_coefficient': -0.5411785840988159}
+2025-05-28 17:17:31,450 [WARNING] 6 out of the last 11 calls to <function Model.make_predict_function.<locals>.predict_function at 0x72b251b020e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
