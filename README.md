@@ -18,3 +18,7 @@ augmentation). This work demonstrates the potential of deep
 learning for automating segmentation in PAD diagnosis, offering
 a scalable solution for clinical applications.
 
+![Diffusion-weighted MR image (left), manually delineated ROIs (centre), manually delineated ROIs overlaid on the DWI (right) of one subject](./image/des.png)
+
+
+![Visual comparison of the manually drawn region of interest and auto segmentation (predicted region of interest) using model SegModel_07](./image/results.png)
